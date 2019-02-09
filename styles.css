@@ -265,9 +265,15 @@ a {
     border: 0;
 
     background-color: #b59f5b;
+
+    cursor: pointer;
 }
 
-input:focus {
+.field:focus {
+    outline-color: #b59f5b;
+}
+
+.button:focus {
     outline-color: #b59f5b;
 }
 
@@ -362,5 +368,45 @@ input:focus {
 
 /* Footer */
 .footer {
+    margin-top: 70px;
+}
 
+.socials {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    background-color: #f4f7f6;
+}
+
+.socials-list {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+}
+
+.social-item:nth-child(n+2) {
+    margin-left: 30px;
+}
+
+.social-icon {
+    height: 25px;
+}
+
+/* Copyright */
+.copyright {
+    margin-top: 70px;
+    margin-bottom: 35px;
+
+    text-align: center;
+}
+
+.copyright-link {
+    color: #999999;
+    font-size: 12px;
+    font-weight: bold;
 }
