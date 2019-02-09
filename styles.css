@@ -19,7 +19,7 @@ body {
 }
 
 h1 {
-    margin: 145px;
+    margin-top: 145px;
 
     font-size: 45px;
     line-height: 75px;
@@ -111,6 +111,8 @@ a {
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
+
+    margin-top: 65px;
 }
 
 /* Main */
