@@ -150,13 +150,15 @@ a {
     margin: 5px 0;
 
     font-size: 20px;
+    font-weight: bold;
     line-height: 24px;
 }
 
 .article-date {
-    margin-top: 20px;
+    margin-top: 0;
 
     font-size: 12px;
+    font-weight: bold;
     color: #888888;
 }
 
@@ -175,8 +177,130 @@ a {
     color: #000000;
 }
 
+/* Aside */
 .aside {
     width: 270px;
+}
+
+.section {
+    text-align: center;
+}
+
+.section:nth-child(n+2) {
+    margin-top: 60px;
+}
+
+.section-title, .recent-article-title { /* можно допускать такое? */
+    position: relative;
+
+    margin-top: 0;
+    margin-bottom: 0;
+
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.section-title:after {
+    content: "";
+
+    position: absolute;
+    left: 105px;
+    bottom: -14px;
+
+    width: 66px;
+    height: 3px;
+
+    background-color: #b59f5b;
+}
+
+/* Recent post */
+.recent-posts {
+    text-align: left;
+}
+
+.recent-article {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.recent-article:first-child {
+    margin-top: 45px;
+}
+
+.recent-article:nth-child(n+2) {
+    margin-top: 22px;
+}
+
+.recent-article img {
+    width: 70px;
+    height: 70px;
+}
+
+.recent-article-description {
+    margin-left: 20px;
+}
+
+/* Forms */
+.form {
+    text-align: left;
+}
+
+.field {
+    height: 50px;
+    padding: 20px;
+    box-sizing: border-box;
+
+    background-color: #f4f7f6;
+    border: none;
+
+    font-family: inherit;
+}
+
+.button {
+    width: 50px;
+    height: 50px;
+    padding: 0;
+
+    border: 0;
+
+    background-color: #b59f5b;
+}
+
+input:focus {
+    outline-color: #b59f5b;
+}
+
+/* Search Form */
+.search-form {
+    display: flex;
+}
+
+.search-field {
+    width: 220px;
+}
+
+.search-button {
+    background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/search.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 20px;
+}
+
+/* Newsletter Form */
+.subscription-field {
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.subscription-button {
+    width: 100%;
+
+    color: #FFFFFF;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
 /* Footer */
