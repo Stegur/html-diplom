@@ -19,13 +19,13 @@ body {
 }
 
 h1 {
-    margin-top: 145px;
+    margin-top: 100px;
 
     font-size: 45px;
     line-height: 75px;
 }
 
-.header, .container, .footer {
+.container, .footer {
     width: 1200px;
     box-sizing: border-box;
 
@@ -41,7 +41,7 @@ h1 {
     z-index: 0;
 
     padding-top: 30px;
-    padding-bottom: 120px;
+    padding-bottom: 100px;
 
     color: #FFFFFF;
     text-transform: uppercase;
@@ -71,6 +71,14 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+
+    width: 1200px;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+
     align-items: center;
 }
 
@@ -91,12 +99,13 @@ h1 {
 }
 
 .menu-list-item:nth-child(n+2) {
-    margin-left: 35px;
+    margin-left: 37px;
 }
 
 .menu-link {
     text-decoration: none;
     color: #FFFFFF;
+    font-size: 13px;
 }
 
 .header-title {
@@ -111,7 +120,7 @@ h1 {
     flex-wrap: wrap;
     justify-content: space-between;
 
-    margin-top: 65px;
+    margin-top: 55px;
 }
 
 /* Main */
@@ -168,6 +177,9 @@ h1 {
     text-decoration: none;
     color: #000000;
 }
+.article-date-author {
+    margin-top: 25px;
+}
 
 .article-date {
     margin-top: 0;
@@ -205,13 +217,14 @@ h1 {
     position: relative;
 
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 35px;
     margin-left: auto;
     margin-right: auto;
 
     font-size: 14px;
     font-weight: bold;
     text-transform: uppercase;
+    text-align: center;
 }
 
 .section-title:after {
@@ -251,6 +264,11 @@ h1 {
     font-size: 14px;
     font-weight: bold;
     text-transform: uppercase;
+}
+
+.recent-article-title a {
+    text-decoration: none;
+    color: #000000;
 }
 
 .recent-article-img {
@@ -326,7 +344,6 @@ h1 {
 /* Newsletter Form */
 .subscription-field {
     width: 100%;
-    margin-top: 40px;
     margin-bottom: 20px;
 }
 
@@ -344,7 +361,6 @@ h1 {
     display: flex;
     flex-wrap: wrap;
 
-    margin-top: 40px;
     margin-bottom: 0;
     padding: 0;
 
@@ -352,17 +368,16 @@ h1 {
 }
 
 .tags li {
-    display: inline-block;
     margin-right: 5px;
 }
 
 .tag {
-    padding: 5px 10px;
+    padding: 3px 12px;
     border: 3px solid #eeeeee;
 
     font-size: 12px;
     font-weight: bold;
-    line-height: 40px;
+    line-height: 38px;
     text-transform: uppercase;
     text-decoration: none;
     color: #000000;
@@ -370,11 +385,11 @@ h1 {
 
 /* Categories */
 .categories {
-    margin-top: 40px;
+    margin-top: 0;
+    margin-bottom: 0;
     padding-left: 0;
 
     list-style: none;
-
 }
 
 .category {
@@ -397,7 +412,7 @@ h1 {
 }
 
 .category:nth-child(n+2) {
-    margin-top: 35px;
+    margin-top: 10px;
 }
 
 .category-count {
@@ -433,7 +448,7 @@ h1 {
 }
 
 .social-item:nth-child(n+2) {
-    margin-left: 30px;
+    margin-left: 20px;
 }
 
 .social-item-link {
@@ -444,22 +459,27 @@ h1 {
 
 .social-item-link-twitter {
     background: url("https://netology-code.github.io/html-2-diploma/sources/images/social/004-twitter.svg");
+    background-size: 25px;
 }
 
 .social-item-link-pinterest {
     background: url("https://netology-code.github.io/html-2-diploma/sources/images/social/001-pinterest.svg");
+    background-size: 25px;
 }
 
 .social-item-link-facebook {
     background: url("https://netology-code.github.io/html-2-diploma/sources/images/social/002-facebook-logo.svg");
+    background-size: 25px;
 }
 
 .social-item-link-instagram {
     background: url("https://netology-code.github.io/html-2-diploma/sources/images/social/005-instagram.svg");
+    background-size: 25px;
 }
 
 .social-item-link-tumbler {
     background: url("https://netology-code.github.io/html-2-diploma/sources/images/social/003-tumblr.svg");
+    background-size: 25px;
 }
 
 /* Copyright */
